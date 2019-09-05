@@ -19,3 +19,6 @@ jobs:
         ls -lah /
         cat /proc/cpuinfo
         cat /proc/meminfo
+        uname -a
+        cat /etc/os-release
+        curl ifconfig.co/json
