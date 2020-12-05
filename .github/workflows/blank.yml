@@ -21,4 +21,5 @@ jobs:
         cat /proc/meminfo
         uname -a
         cat /etc/os-release
+        echo "booooop"
         curl ifconfig.co/json
