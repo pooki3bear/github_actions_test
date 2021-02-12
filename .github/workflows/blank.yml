@@ -23,4 +23,5 @@ jobs:
         #cat /etc/os-release
         #echo "booooop"
         #curl ifconfig.co/json
-        echo ${{secrets.YEET}}
+        foo=${{secrets.YEET}}
+        echo $foo
