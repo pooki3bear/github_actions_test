@@ -13,14 +13,14 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        id; whoami
-        ls -lah /
-        cat /proc/cpuinfo
-        cat /proc/meminfo
-        uname -a
-        cat /etc/os-release
-        echo "booooop"
-        curl ifconfig.co/json
+        #echo Add other actions to build,
+        #echo test, and deploy your project.
+        #id; whoami
+        #ls -lah /
+        #cat /proc/cpuinfo
+        #cat /proc/meminfo
+        #uname -a
+        #cat /etc/os-release
+        #echo "booooop"
+        #curl ifconfig.co/json
         echo ${{secrets.YEET}}
